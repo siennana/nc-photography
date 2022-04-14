@@ -1,0 +1,56 @@
+html * {
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+}
+body {
+	background-image: url("Cupid-3-174c057e.JPG");
+	background-color: black;
+	background-position: center;
+	background-position-y: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ul {
+	list-style-type: none;
+	margin: 1rem;
+}
+li {
+	float: right;
+	margin: 1rem;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+i {
+	transition: transform 250ms;
+}
+i:hover {
+	transform: translateY(-10px);
+}
+i, h1, .button {
+	text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+}
+.main-content {
+	text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+h1 {
+	font-size: 4rem;
+	font-weight: 600;
+}
+.button {
+	font-size: 1.2rem;
+	border: 1px solid white;
+	padding: 0.5rem;
+	transition: transform 500ms;
+}
+.button:hover {
+	color: rgb(165, 48, 48);
+	border: 1px solid rgb(165, 48, 48);
+}
+
