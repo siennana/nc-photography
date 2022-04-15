@@ -1,14 +1,19 @@
-html * {
+html, body {
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 2px;
+	margin: 0;
 }
-body {
+.content-container {
 	background-image: url("Cupid-3-174c057e.JPG");
-	background-color: black;
 	background-position: center;
 	background-position-y: top;
 	background-repeat: no-repeat;
 	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
 }
 ul {
 	list-style-type: none;
